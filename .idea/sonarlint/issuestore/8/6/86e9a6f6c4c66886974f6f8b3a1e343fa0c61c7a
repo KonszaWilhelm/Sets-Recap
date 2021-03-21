@@ -1,0 +1,35 @@
+
+V	java:S106§"9Replace this use of System.out or System.err by a logger.(íÙĞ8Ô‚ü.
+u
+java:S3776³"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(€ş®³üÿÿÿÿ8ìúÏü.
+]	java:S125"<This block of commented-out lines of code should be removed.(è¡Áúÿÿÿÿ8²¸İ¥ı.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(‰Õˆé8Á¦â¥ı.
+t
+java:S3776+"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ü³Ø—ûÿÿÿÿ8ìúÏü.
+U
+java:S1197K"8Move the array designator from the variable to the type.(å‘óÀ8çò¡ıû.
+8
+java:S3626:"Remove this redundant jump.(ÉŠ©ƒ8ìúÏü.
+o	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü³Ø—ûÿÿÿÿ8ìúÏü.
+8
+java:S36268"Remove this redundant jump.(ÉŠ©ƒ8ìúÏü.
+[	java:S106¶"9Replace this use of System.out or System.err by a logger.(’Êèßÿÿÿÿÿ8ìúÏü.
+8
+java:S3626<"Remove this redundant jump.(ÉŠ©ƒ8ìúÏü.
+]	java:S125"<This block of commented-out lines of code should be removed.(Š«Ä°ùÿÿÿÿ8ìúÏü.
+]	java:S125"<This block of commented-out lines of code should be removed.(¢÷”Œşÿÿÿÿ8ìúÏü.
+u
+java:S3776„"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Åá‘õøÿÿÿÿ8ìúÏü.
+8
+java:S3626?"Remove this redundant jump.(ÉŠ©ƒ8ìúÏü.
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(íÙĞ8Üµıû.
+[	java:S106©"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8àºü.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8®îà¥ı.
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(é±‘âûÿÿÿÿ8ìúÏü.
+]	java:S125	"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ8ìúÏü.
+I
+java:S1481",Remove this unused "counter" local variable.(ŒÂëó8‡˜ú¥ı.
+u	java:S1355"YReduce the total number of break and continue statements in this loop to use at most one.(É‰ë„8ìúÏü.
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(×Óä±8ìúÏü.
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÌÂü.
+]	java:S125"<This block of commented-out lines of code should be removed.(»âÁÀÿÿÿÿÿ8²¸İ¥ı.

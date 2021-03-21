@@ -1,0 +1,38 @@
+
+p	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ß‰üÿÿÿÿ8ºÏÀ¬û.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ÆÆÅıÿÿÿÿ8“›è×ù.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ã·ÜÛ8ÙÙ£¿ù.
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(´œàÚÿÿÿÿÿ8¥µï”ú.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8íˆŞÖù.
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(ó¶çãøÿÿÿÿ8Ë ¸²û.
+]	java:S125;"<This block of commented-out lines of code should be removed.(úÑÇ¥ÿÿÿÿÿ8—œ‡Øù.
+]	java:S125V"<This block of commented-out lines of code should be removed.(­ö©®úÿÿÿÿ8Íöï”ú.
+]	java:S125q"<This block of commented-out lines of code should be removed.(µ¦‘ûÿÿÿÿ8³˜ã´ú.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñª•ó8ÑÊ ¿ù.
+Z	java:S106w"9Replace this use of System.out or System.err by a logger.(ïÖ–Åûÿÿÿÿ8µÊ±´ú.
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(×•œ²8¥µï”ú.
+X	java:S1257"<This block of commented-out lines of code should be removed.(õÏ¾¤8Á´‚Øù.
+X	java:S125o"<This block of commented-out lines of code should be removed.(úâ¬É8Äàİ´ú.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8àûë×ù.
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(ËéÃ¬üÿÿÿÿ8Ë ¸²û.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´œàÚÿÿÿÿÿ8Æ‰¿ù.
+]	java:S125Y"<This block of commented-out lines of code should be removed.(İëâüÿÿÿÿ8ú‘ğ”ú.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…‘ÉÑıÿÿÿÿ8‚¾î¾ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8™şæ¾ù.
+]	java:S125t"<This block of commented-out lines of code should be removed.(¿°„ ùÿÿÿÿ8³˜ã´ú.
+Z	java:S106["9Replace this use of System.out or System.err by a logger.(…‘ÉÑıÿÿÿÿ8¥µï”ú.
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(ñª•ó8¥µï”ú.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÇÏšÕ8ó¬ï×ù.
+V	java:S106¦"9Replace this use of System.out or System.err by a logger.(×•œ²8Ë ¸²û.
+]	java:S125%"<This block of commented-out lines of code should be removed.(¬µº¡şÿÿÿÿ8ó¬ï×ù.
+k	java:S100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÄ¾¨8Ë ¸²û.
+t
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(äÒÛ™ûÿÿÿÿ8¥µï”ú.
+X
+java:S1854¡"5Remove this useless assignment to local variable "b".(ˆ˜ı‡úÿÿÿÿ8Ë ¸²û.
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(ñª•ó8¥µï”ú.
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8êºå”ú.
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(£³±ç8Ë ¸²û.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(×•œ²8ÙÙ£¿ù.
