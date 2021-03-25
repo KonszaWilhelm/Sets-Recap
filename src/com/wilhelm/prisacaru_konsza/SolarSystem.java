@@ -20,9 +20,9 @@ public class SolarSystem {
         this.planets = new HashSet<>();
     }
 
-    public boolean addToSolarSystem(String str, CelestialBody celestialBody) {
-        if (!this.solarSys.containsKey(str)) {
-            this.solarSys.put(str, celestialBody);
+    public boolean addToSolarSystem(String planetName, CelestialBody celestialBody) {
+        if (!this.solarSys.containsKey(planetName)) {
+            this.solarSys.put(planetName, celestialBody);
             return true;
         }
         return false;
@@ -38,5 +38,6 @@ public class SolarSystem {
 
     public Set<CelestialBody> getPlanets() {
         return new HashSet<>(planets);
+
     }
 }

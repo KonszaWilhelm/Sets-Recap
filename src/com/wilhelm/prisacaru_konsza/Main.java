@@ -8,72 +8,72 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         SolarSystem solarSystem = new SolarSystem();
-        CelestialBody mercury = new CelestialBody("Mercury", 88);
+        CelestialBody mercury = new Planet("Mercury", 88);
         solarSystem.addToSolarSystem(mercury.getName(), mercury);
         solarSystem.addToPlanets(mercury);
 
-        CelestialBody venus = new CelestialBody("Venus", 225);
+        CelestialBody venus = new Planet("Venus", 225);
         solarSystem.addToSolarSystem(venus.getName(), venus);
         solarSystem.addToPlanets(venus);
 
-        CelestialBody earth = new CelestialBody("Earth", 365);
+        CelestialBody earth = new Planet("Earth", 365);
         solarSystem.addToSolarSystem(earth.getName(), earth);
         solarSystem.addToPlanets(earth);
 
-        CelestialBody tempMoon = new CelestialBody("Moon", 27);
+        CelestialBody tempMoon = new Moon("Moon", 27);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        earth.addMoon(tempMoon);
+        earth.addSatellites(tempMoon);
 
-        CelestialBody tempPlanet = new CelestialBody("Mars", 687);
+        CelestialBody tempPlanet = new Planet("Mars", 687);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
 
-        tempMoon = new CelestialBody("Deimos", 1.3);
+        tempMoon = new Moon("Deimos", 1.3);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        tempPlanet.addMoon(tempMoon);
+        tempPlanet.addSatellites(tempMoon);
 
-        tempPlanet = new CelestialBody("Phobos", 0.3);
+        tempPlanet = new Moon("Phobos", 0.3);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        tempPlanet.addMoon(tempMoon);
+        tempPlanet.addSatellites(tempMoon);
 
-        tempPlanet = new CelestialBody("Jupiter", 4332);
+        tempPlanet = new Planet("Jupiter", 4332);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
 
-        tempMoon = new CelestialBody("Io", 1.8);
+        tempMoon = new Moon("Io", 1.8);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        tempPlanet.addMoon(tempMoon);
+        tempPlanet.addSatellites(tempMoon);
 
-        tempMoon = new CelestialBody("Europa", 3.5);
+        tempMoon = new Moon("Europa", 3.5);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        tempPlanet.addMoon(tempMoon);
+        tempPlanet.addSatellites(tempMoon);
 
-        tempMoon = new CelestialBody("Ganymede", 7.1);
+        tempMoon = new Moon("Ganymede", 7.1);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        tempPlanet.addMoon(tempMoon);
+        tempPlanet.addSatellites(tempMoon);
 
-        tempMoon = new CelestialBody("Callisto", 16.7);
+        tempMoon = new Moon("Callisto", 16.7);
         solarSystem.addToSolarSystem(tempMoon.getName(), tempMoon);
-        tempPlanet.addMoon(tempMoon);
+        tempPlanet.addSatellites(tempMoon);
 
-        tempPlanet = new CelestialBody("Saturn", 10759);
+        tempPlanet = new Planet("Saturn", 10759);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
 
-        tempPlanet = new CelestialBody("Uranus", 30660);
+        tempPlanet = new Planet("Uranus", 30660);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
 
-        tempPlanet = new CelestialBody("Neptune", 165);
+        tempPlanet = new Planet("Neptune", 165);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
 
-        tempPlanet = new CelestialBody("Pluto", 248);
+        tempPlanet = new Planet("Pluto", 248);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" + tempPlanet.hashCode());
 
-        tempPlanet = new CelestialBody("Pluto", 248);
+        tempPlanet = new Planet("Pluto", 192);
         solarSystem.addToSolarSystem(tempPlanet.getName(), tempPlanet);
         solarSystem.addToPlanets(tempPlanet);
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" + tempPlanet.hashCode());
@@ -98,9 +98,6 @@ public class Main {
             moons.addAll(planet.getSatellites());
         }
         System.out.println("All moons set union:\n " + moons);
-
-       
-
 
     }
 }
